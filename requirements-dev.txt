@@ -1,7 +1,11 @@
 alpaca-py
+beautifulsoup4
 black
+deprecated
 flake8
 isort
 mypy
+yfinance
 pytest
 pytest-cov
+scipy

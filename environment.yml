@@ -12,3 +12,10 @@ dependencies:
   - pytest-cov
   - isort
   - alpaca-py
+  - scipy
+  - beautifulsoup4
+  - deprecated
+  - yfinance
+  - pip:
+      - newtulipy
+prefix: /home/clamytoe/miniconda3/envs/traderbot

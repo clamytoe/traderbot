@@ -1,3 +1,7 @@
 alpaca-py
+beautifulsoup4
+deprecated
+yfinance
 pytest
 python-dotenv
+scipy
