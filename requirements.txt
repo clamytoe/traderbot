@@ -1,2 +1,3 @@
+alpaca-py
 pytest
 python-dotenv

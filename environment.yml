@@ -1,13 +1,14 @@
 name: traderbot
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
-  - black
-  - flake8
-  - isort
-  - mypy
-  - pytest
-  - pytest-cov
-  - python=3.13.3
   - python-dotenv
+  - flake8
+  - black
+  - pytest
+  - mypy
+  - python=3.13.3
+  - pytest-cov
+  - isort
+  - alpaca-py
