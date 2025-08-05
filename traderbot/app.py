@@ -4,39 +4,15 @@ app.py
 
 OGS Trading Bot
 """
-# VALUES
-# TODO: Define assets
+# Import needed libraries
 
-# INITIAL CHECKS
-# TODO: Check the position
-# TODO: Check if tradable
+# Initialize the logger
 
-# GENERAL TREND ANALYSIS
-# TODO: Load 30-min candles
-# TODO: Perform general trend analysis
+# Check trading account status
 
-# LOOP
-# TODO: Load 5-min candles
-# TODO: Perform instant trend analysis
-# TODO: Perform RSI analysis
-# TODO: Perform stochastic analysis
+# Close current orders
 
-# SUBMIT ORDER
-# TODO: Submit order
-# TODO: Check position
-
-# "ENTER POSITION" MODE
-# TODO: Check take profit
-# TODO: Check stop loss
-# TODO: Check stochastic crossing
-
-# "EXIT POSITION" MODE
-# TODO: Check order
-# TODO: Check position
-
-# PAUSE
-# TODO: Wait 15-min
-# TODO: Back to beggining
+# Execute the main trading logic
 
 
 def main():
