@@ -4,6 +4,8 @@ app.py
 
 OGS Trading Bot
 """
+# VALUES
+# TODO: Define assets
 
 # INITIAL CHECKS
 # TODO: Check the position
