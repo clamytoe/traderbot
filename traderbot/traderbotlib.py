@@ -1,8 +1,21 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+import logging
+from dataclasses import dataclass, field
+from typing import List, Optional
 
-# VALUES
-# TODO: Define assets
+
+@dataclass
+class TraderBot:
+    ticker: str
+    lg: logging.Logger = field(default_factory=lambda: logging.getLogger(__name__))
+
+    def __post_init__(self):
+        self.lg.info(f"TraderBot initialized for ticker: {self.ticker}")
+
+    def run(self):
+        pass
+
 
 # INITIAL CHECKS
 # TODO: Check the position

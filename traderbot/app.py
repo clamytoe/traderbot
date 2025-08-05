@@ -4,7 +4,7 @@
 import sys
 
 from traderbot.logger import initialize_logger
-from traderbot.traderbotlib import *
+from traderbot.traderbotlib import TraderBot
 
 # Initialize the logger
 lg = initialize_logger()
@@ -45,7 +45,8 @@ def main():
 
     ticker = get_ticker()
 
-    print(f"Working with ticker: {ticker}")
+    trader = TraderBot(ticker)
+    trader.run()
 
 
 if __name__ == "__main__":
