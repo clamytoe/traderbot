@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""
-app.py
+# -*- coding: utf-8 -*-
 
-OGS Trading Bot
-"""
-# Import needed libraries
+from traderbot.logger import initialize_logger
+from traderbot.traderbotlib import *
 
-# Initialize the logger
+lg = initialize_logger()
 
 # Check trading account status
 
@@ -16,7 +14,7 @@ OGS Trading Bot
 
 
 def main():
-    print("Successfully installed your project file: traderbot")
+    lg.info("Successfully installed your project file: traderbot")
 
 
 if __name__ == "__main__":
