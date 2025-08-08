@@ -53,6 +53,41 @@ traderbot
 
 The output should be: `Successfully installed your project file: traderbot`
 
+## Possible indicators
+
+- Value vs P/E ratio
+- Earnings beats estimates
+- Trends outside market
+- Pre-IPO information
+  - How did they fund
+  - Who is backing
+
+## 🛠️ Flask Dashboard Blueprint: “Projected Value Navigator”
+
+This is a blueprint that I have been working on for my retirement ROTH IRA account. I plan to build it modularly:
+
+### 📥 Input Layer
+
+- CSV or JSON parser for your portfolio holdings
+- Optional form for setting share counts, current prices, and custom CAGR assumptions
+
+### 📈 Projection Engine
+
+- Apply per-asset CAGR calculations to estimate 5-year values
+- Allow toggling between current price vs. target price mode
+- Show thresholds like "Take Profit" and "Buyback Trigger"
+
+### 📊 Visualization Tabs
+
+- Summary table showing current vs projected value, % to target, potential gains
+- Timeline graphs to show how projected value compounds
+- Pie charts for portfolio composition — present vs projected
+
+### 📤 Output Layer
+
+- Export projected values or thresholds as JSON (ready for alerts or script triggers)
+- Optional integration with TradingView price alerts or shell script execution
+
 ## Contributing
 
 Contributions are welcomed.
