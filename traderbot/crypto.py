@@ -14,14 +14,14 @@ request_params = CryptoBarsRequest(
         "HBAR/USD",
         "SHIB/USD",
     ],
-    timeframe=TimeFrame.Day,
-    start="2022-07-01",
+    timeframe=TimeFrame.Day,  # type: ignore
+    start="2022-07-01",  # type: ignore
 )
 
 bars = client.get_crypto_bars(request_params)
 
 # Convert CryptoBars to a Pandas DataFrame
-df = bars.df
+df = bars.df  # type: ignore
 
 # Convert to JSON
 json_data = df.to_json()
